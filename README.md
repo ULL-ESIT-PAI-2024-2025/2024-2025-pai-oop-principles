@@ -22,7 +22,7 @@ This repository includes:
 - `D.R.Y. (Don't Repeat Yourself)`: Promotes logic reuse to avoid redundancy.
 - `Y.A.G.N.I(You Aren't Going to Need It)`: Focuses on building only essential features.
 
-# Best Practices Highlighted
+## Best Practices Highlighted
 
 - Identifies common `code smells` and their impact.
 - Applies `refactoring techniques` to enhance code quality.
