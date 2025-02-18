@@ -55,5 +55,5 @@ class BankAccount {
 // Example usage:
 const account = new BankAccount(500);
 account.deposit(100);
-// account.balance = 9999; // ❌ Not allowed
-console.log(account.getBalance()); // ✅ Outputs: 600
+// account.balance = 9999; // Not allowed
+console.log(account.getBalance()); // Outputs: 600
