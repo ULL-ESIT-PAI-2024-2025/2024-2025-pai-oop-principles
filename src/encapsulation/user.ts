@@ -1,3 +1,16 @@
+/**
+ * Universidad de La Laguna
+ * Escuela Superior de Ingeniería y Tecnología
+ * Grado en Ingeniería Informática
+ * Programación de Aplicaciones Interactivas
+ *
+ * Demonstrates controlled access through encapsulation.
+ * Users can only set or retrieve the password through methods (`setPassword()` and `getPassword()`),
+ * which include validation rules to ensure security.
+ *
+ * @author idk
+ * @since 18/02/2025
+ */
 
 
 /**
@@ -27,13 +40,11 @@ class User {
    * @returns {string} Masked password.
    */
   public getPassword(): string {
-    return '*****'; // Masked value
+    return '*****';
   }
 }
 
 // Example usage:
-const user = new User('initialPass123');
+const user = new User('12345');
 console.log(user.getPassword()); // Outputs: *****
 // console.log(user.password); // Error: Property 'password' is private
-
-

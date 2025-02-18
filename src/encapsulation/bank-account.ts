@@ -1,5 +1,15 @@
 /**
- * 
+ * Universidad de La Laguna
+ * Escuela Superior de Ingeniería y Tecnología
+ * Grado en Ingeniería Informática
+ * Programación de Aplicaciones Interactivas
+ *
+ * Demonstrates data protection through encapsulation.
+ * Prevents unauthorized access to sensitive data (`balance`) by using private fields 
+ * and controlling modifications via public methods (`deposit()` and `getBalance()`).
+ *
+ * @author idk
+ * @since 18/02/2025
  */
 
 
