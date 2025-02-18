@@ -4,9 +4,12 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas
  *
- * Demonstrates data protection through encapsulation.
- * Prevents unauthorized access to sensitive data (`balance`) by using private fields 
- * and controlling modifications via public methods (`deposit()` and `getBalance()`).
+ * Demonstrates composition with a "has-a" relationship:
+ * A `Person` has an `Address`.
+ * 
+ * - `Person` uses an `Address` object through composition.
+ * - `Address` is a separate, reusable class, showing modularity.
+ * - Changes to `Address` do not affect `Person`, maintaining encapsulation.
  *
  * @author idk
  * @since 18/02/2025
