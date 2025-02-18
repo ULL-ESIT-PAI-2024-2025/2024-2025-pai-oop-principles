@@ -8,7 +8,9 @@
  * Users can only set or retrieve the password through methods (`setPassword()` and `getPassword()`),
  * which include validation rules to ensure security.
  *
- * @author idk
+ * @author Sofía de Fuentes Rosella
+ * @author Enmanuel Vegas Acosta
+ * @author Salvador González Cueto
  * @since 18/02/2025
  */
 

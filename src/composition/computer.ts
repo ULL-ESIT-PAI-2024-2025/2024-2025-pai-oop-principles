@@ -11,7 +11,10 @@
  * - `Mouse` and `Keyboard` are independent, reusable classes, showing modularity.
  * - Changing components is easy (e.g., using a different `Mouse`). 
  *
- * @author idk
+ * @author Sofía de Fuentes Rosella
+ * @author Enmanuel Vegas Acosta
+ * @author Salvador González Cueto
+ * @brief Interface to represent a single instruction
  * @since 18/02/2025
  */
 

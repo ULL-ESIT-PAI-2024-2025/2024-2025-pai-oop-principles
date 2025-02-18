@@ -11,7 +11,9 @@
  * - `Address` is a separate, reusable class, showing modularity.
  * - Changes to `Address` do not affect `Person`, maintaining encapsulation.
  *
- * @author idk
+ * @author Sofía de Fuentes Rosella
+ * @author Enmanuel Vegas Acosta
+ * @author Salvador González Cueto
  * @since 18/02/2025
  */
 

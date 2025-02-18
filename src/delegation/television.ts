@@ -7,7 +7,9 @@
  * Demonstrates Delegation to Avoid Complex Inheritance:
  * A `RemoteControl` delegates operations to a `Television`.
  *
- * @author idk
+ * @author Sofía de Fuentes Rosella
+ * @author Enmanuel Vegas Acosta
+ * @author Salvador González Cueto
  * @since 18/02/2025
  */
 

@@ -9,7 +9,9 @@
  * but users can access the temperature in Fahrenheit via a public method (`getTemperatureInFahrenheit()`).
  * This allows future changes to the internal logic without affecting users.
  *
- * @author idk
+ * @author Sofía de Fuentes Rosella
+ * @author Enmanuel Vegas Acosta
+ * @author Salvador González Cueto
  * @since 18/02/2025
  */
 

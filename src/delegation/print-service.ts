@@ -7,7 +7,9 @@
  * Demonstrates Delegation for Behavior Reuse:
  * Multiple devices (`Printer`, `Fax`, `Scanner`) reuse `PrintService` to print documents.
  *
- * @author idk
+ * @author Sofía de Fuentes Rosella
+ * @author Enmanuel Vegas Acosta
+ * @author Salvador González Cueto
  * @since 18/02/2025
  */
 

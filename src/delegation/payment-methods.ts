@@ -7,7 +7,9 @@
  * Demonstrates Delegation for Behavior Swapping (Strategy Pattern):
  * A `PaymentProcessor` delegates payments to different payment methods.
  *
- * @author idk
+ * @author Sofía de Fuentes Rosella
+ * @author Enmanuel Vegas Acosta
+ * @author Salvador González Cueto
  * @since 18/02/2025
  */
 
