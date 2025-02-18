@@ -27,7 +27,7 @@ class Address {
    * @param {string} street - The street name.
    * @param {string} city - The city name.
    */
-  constructor(street: string, city: string) {
+  public constructor(street: string, city: string) {
     this.street = street;
     this.city = city;
   }
@@ -36,7 +36,7 @@ class Address {
    * Gets the full address.
    * @returns {string} The full address as a string.
    */
-  getFullAddress(): string {
+  public getFullAddress(): string {
     return `${this.street}, ${this.city}`;
   }
 }
@@ -53,7 +53,7 @@ class Person {
    * @param {string} name - The person's name.
    * @param {Address} address - The person's address.
    */
-  constructor(name: string, address: Address) {
+  public constructor(name: string, address: Address) {
     this.name = name;
     this.address = address;
   }
@@ -62,7 +62,7 @@ class Person {
    * Gets the person's details.
    * @returns {string} The person's name and address.
    */
-  getDetails(): string {
+  public getDetails(): string {
     return `${this.name} lives at ${this.address.getFullAddress()}`;
   }
 }
