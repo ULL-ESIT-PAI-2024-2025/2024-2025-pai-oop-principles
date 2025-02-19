@@ -7,9 +7,10 @@
  * Demonstrates composition with a "has-a" relationship:
  * A `Person` has an `Address`.
  * 
- * - `Person` uses an `Address` object through composition.
- * - `Address` is a separate, reusable class, showing modularity.
- * - Changes to `Address` do not affect `Person`, maintaining encapsulation.
+ * - The `BankAccount` class encapsulates the `balance` field, preventing unauthorized modifications.
+ * - Access to the balance is controlled through public methods (`deposit()` and `getBalance()`).
+ * - Ensures data integrity by validating deposits and prohibiting direct balance modifications.
+ * - Promotes modularity and security by following best practices in object-oriented design.
  *
  * @author Sofía de Fuentes Rosella
  * @author Enmanuel Vegas Acosta
