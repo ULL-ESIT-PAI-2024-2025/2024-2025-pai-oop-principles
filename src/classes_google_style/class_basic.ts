@@ -13,25 +13,49 @@
  * @since 18/02/2025
  */
 
+// Class and class methods declaration:
 class Door {
-  public open(): string {
-    return 'Door is open!';
+  public open() {
+    console.log('Door is open');
   }
 
-  public close(): string {
-    return 'Door closed!';
+  public close() {
+    console.log('Door closed!');
   }
 }
 
+// Constructors examples:
+new Door().open(); // This is a correct Constructor call. Always use parentheses.
+new Door.open(); // This call is not correct. It also creates an error.
+
+class Example {
+  constructor(creationMessage: string) {
+    console.log("Don't mind me.");
+  }
+}
+
+class BadExample extends Example {
+  myField = 10;
+  constructor(message: string) { // BAD: Only calls parent constructor.
+    super(message);
+  }
+}
+
+class BadExampleEmpty {
+  constructor() { } // BAD: Empty Constructor is not necessary.
+}
 
 
-class DoorBad {
-  public open(): string {
-    return 'Door is open!';
-  };
-  public close(): string {
-    return 'Door closed!';
-  };
+class GoodExample {
+  myField = 10;
 
-};
+  constructor(private readonly ctorParam) {} // Constructor separado por líneas en blanco
 
+  calculateSum() {
+    console.log(1 + 1);
+  }
+}
+
+class DefaultConstructor {
+  // Constructor por defecto proporcionado por ES2015
+}
