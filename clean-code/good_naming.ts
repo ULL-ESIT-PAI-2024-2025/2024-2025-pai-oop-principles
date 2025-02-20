@@ -4,7 +4,7 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas
  *
- * Demonstrates  bad and good naming examples.
+ * Demonstrates good naming examples.
  * 
  * @author Sofía de Fuentes Rosella
  * @author Enmanuel Vegas Acosta
