@@ -49,7 +49,7 @@ class BadExampleEmpty {
 class GoodExample {
   myField = 10;
 
-  constructor(private readonly ctorParam) {} // Constructor separado por líneas en blanco
+  constructor(private readonly ctorParam) {} // Constructor separated by empty lines.
 
   calculateSum() {
     console.log(1 + 1);
@@ -57,5 +57,5 @@ class GoodExample {
 }
 
 class DefaultConstructor {
-  // Constructor por defecto proporcionado por ES2015
+  // No need to specify a constructor. It is provided by ES2016.
 }
