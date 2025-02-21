@@ -24,7 +24,7 @@ export class Vehicle {
    * @returns {string} A message confirming the engine started.
    */
   public startEngine(): string {
-    return "Engine started!";
+    return 'Engine started!';
   }
 }
 
@@ -38,7 +38,7 @@ export class Bicycle extends Vehicle {
    * @returns {string} A message confirming pedaling.
    */
   public pedal(): string {
-    return "Pedaling!";
+    return 'Pedaling!';
   }
 }
 

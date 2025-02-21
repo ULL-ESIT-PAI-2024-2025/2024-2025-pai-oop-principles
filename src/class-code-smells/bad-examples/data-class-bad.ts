@@ -29,7 +29,7 @@ class Username {
    * Gets the username.
    * @returns {string} The username.
    */
-  public get name(): string {
+  public getName(): string {
     return this.username;
   }
 
@@ -37,13 +37,13 @@ class Username {
    * Sets a new username.
    * @param {string} newName - The new username.
    */
-  public set name(newName: string) {
+  public setName(newName: string) {
     this.username = newName;
   }
 }
 
 // Example usage:
-const user = new Username("Alice");
-console.log(user.name); // Just accessing a variable, no real behavior
-user.name = "Bob"; // Unnecessary setter
-console.log(user.name);
+const user = new Username('Alice');
+console.log(user.getName()); // Just accessing a variable, no real behavior
+user.setName('Bob'); // Unnecessary setter
+console.log(user.getName());

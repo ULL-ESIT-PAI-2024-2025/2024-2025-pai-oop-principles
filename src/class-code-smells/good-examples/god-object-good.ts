@@ -94,12 +94,12 @@ export class Game {
    * Starts the game.
    */
   public start(): void {
-    console.log("Game started!");
+    console.log('Game started!');
   }
 }
 
 // Example usage:
 const game = new Game();
-game.addPlayer("Alice");
-game.addEnemy("Dragon", 200);
+game.addPlayer('Alice');
+game.addEnemy('Dragon', 200);
 game.start();

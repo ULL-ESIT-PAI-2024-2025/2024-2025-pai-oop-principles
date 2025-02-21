@@ -44,7 +44,7 @@ export class Username {
    */
   public setUsername(newName: string): void {
     if (newName.length < 3) {
-      throw new Error("Username must be at least 3 characters long.");
+      throw new Error('Username must be at least 3 characters long.');
     }
     this.username = newName;
   }
@@ -59,8 +59,8 @@ export class Username {
 }
 
 // Example usage:
-const user = new Username("Alice");
-console.log(user.getName()); // ✅ "ALICE"
-user.setUsername("Bob123"); // ✅ Sets new username
-console.log(user.hasNumbers()); // ✅ true (contains "123")
-console.log(user.getName()); // ✅ "BOB123"
+const user = new Username('Alice');
+console.log(user.getName()); // "ALICE"
+user.setUsername('Bob123'); // Sets new username
+console.log(user.hasNumbers()); // true (contains "123")
+console.log(user.getName()); // "BOB123"

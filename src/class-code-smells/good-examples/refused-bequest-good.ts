@@ -35,7 +35,7 @@ export class Car implements Vehicle {
    * @returns {string} A message confirming the engine started.
    */
   public move(): string {
-    return "Engine started!";
+    return 'Engine started!';
   }
 }
 
@@ -48,7 +48,7 @@ export class Bicycle implements Vehicle {
    * @returns {string} A message confirming pedaling.
    */
   public move(): string {
-    return "Pedaling!";
+    return 'Pedaling!';
   }
 }
 

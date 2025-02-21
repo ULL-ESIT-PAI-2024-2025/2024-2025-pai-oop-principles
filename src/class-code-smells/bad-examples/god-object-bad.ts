@@ -53,7 +53,7 @@ class Game {
    * Starts the game.
    */
   public start(): void {
-    console.log("Game started!");
+    console.log('Game started!');
   }
 
   /**
@@ -68,8 +68,8 @@ class Game {
 
 // Example usage:
 const game = new Game();
-game.addPlayer("Alice");
-game.addItem("Sword", 1);
-game.spawnEnemy("Dragon", 200);
+game.addPlayer('Alice');
+game.addItem('Sword', 1);
+game.spawnEnemy('Dragon', 200);
 game.start();
-game.attackEnemy("Alice", "Dragon"); // Game should not handle all logic directly
+game.attackEnemy('Alice', 'Dragon'); // Game should not handle all logic directly
