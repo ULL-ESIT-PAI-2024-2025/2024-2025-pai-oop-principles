@@ -12,10 +12,22 @@
  * @since 18/02/2025
  */
 
+/**
+ * Bad example of a function that doesn't handle exceptions
+ * @param dividend The dividend
+ * @param divisor The divisor
+ * @returns The division between dividend / divisor
+ */
 function unsafeDivision(dividend: number, divisor: number): number {
   return dividend / divisor;
 }
 
+/**
+ * Good example of a division that handles exceptions
+ * @param dividend The dividend
+ * @param divisor The divisor
+ * @returns The division between dividend / divisor
+ */
 function safeDivision(dividend: number, divisor: number): number {
   if (divisor === 0) {
     throw new Error('Can\'t divide by 0');
