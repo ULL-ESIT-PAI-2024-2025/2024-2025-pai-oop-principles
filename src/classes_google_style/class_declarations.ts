@@ -28,34 +28,3 @@ class Door {
 new Door().open(); // This is a correct Constructor call. Always use parentheses.
 new Door.open(); // This call is not correct. It also creates an error.
 
-class Example {
-  constructor(creationMessage: string) {
-    console.log("Don't mind me.");
-  }
-}
-
-class BadExample extends Example {
-  myField = 10;
-  constructor(message: string) { // BAD: Only calls parent constructor.
-    super(message);
-  }
-}
-
-class BadExampleEmpty {
-  constructor() { } // BAD: Empty Constructor is not necessary.
-}
-
-
-class GoodExample {
-  myField = 10;
-
-  constructor(private readonly ctorParam) {} // Constructor separated by empty lines.
-
-  calculateSum() {
-    console.log(1 + 1);
-  }
-}
-
-class DefaultConstructor {
-  // No need to specify a constructor. It is provided by ES2016.
-}
