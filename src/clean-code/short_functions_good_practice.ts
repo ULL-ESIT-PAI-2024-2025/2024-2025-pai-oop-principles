@@ -40,9 +40,9 @@ function printUserReport(currentUser: User) : void {
  * @returns {string} The user category.
  */
  function determineUserCategory(totalSpent: number): string {
-   if (totalSpent > 1000) return "VIP";
-   if (totalSpent > 500) return "Premium";
-   return "Regular";
+   if (totalSpent > 1000) return 'VIP';
+   if (totalSpent > 500) return 'Premium';
+   return 'Regular';
  }
  
  

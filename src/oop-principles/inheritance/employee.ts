@@ -45,9 +45,9 @@ export class Manager extends Employee {
 }
 
 // Example usage:
-const emp = new Employee("Alice", 50000);
-console.log(emp.getDetails()); // "Alice earns $50000 per year."
+const emp = new Employee('Alice', 50000);
+console.log(emp.getDetails()); // 'Alice earns $50000 per year.'
 
-const manager = new Manager("Bob", 80000);
-console.log(manager.getDetails()); // "Bob earns $80000 per year."
-console.log(manager.assignTask("Finish the report")); // "Bob assigned the task: Finish the report"
+const manager = new Manager('Bob', 80000);
+console.log(manager.getDetails()); // 'Bob earns $80000 per year.'
+console.log(manager.assignTask('Finish the report')); // 'Bob assigned the task: Finish the report'

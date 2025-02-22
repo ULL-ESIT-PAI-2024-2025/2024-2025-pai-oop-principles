@@ -24,7 +24,7 @@ export class Animal {
    * @returns {string} A sound description.
    */
   public makeSound(): string {
-    return "Some generic animal sound.";
+    return 'Some generic animal sound.';
   }
 
   /**
@@ -32,7 +32,7 @@ export class Animal {
    * @returns {string} A message indicating the animal is eating.
    */
   public eat(): string {
-    return "The animal is eating.";
+    return 'The animal is eating.';
   }
 }
 
@@ -45,15 +45,15 @@ export class Dog extends Animal {
    * @returns {string} A message indicating the dog's bark.
    */
   public makeSound(): string {
-    return "Woof! Woof!";
+    return 'Woof! Woof!';
   }
 }
 
 // Example usage:
 const genericAnimal = new Animal();
-console.log(genericAnimal.makeSound()); // "Some generic animal sound."
-console.log(genericAnimal.eat()); // "The animal is eating."
+console.log(genericAnimal.makeSound()); // 'Some generic animal sound.'
+console.log(genericAnimal.eat()); // 'The animal is eating.'
 
 const dog = new Dog();
-console.log(dog.makeSound()); // "Woof! Woof!"
-console.log(dog.eat()); // Inherited from `Animal`: "The animal is eating."
+console.log(dog.makeSound()); // 'Woof! Woof!'
+console.log(dog.eat()); // Inherited from `Animal`: 'The animal is eating.'

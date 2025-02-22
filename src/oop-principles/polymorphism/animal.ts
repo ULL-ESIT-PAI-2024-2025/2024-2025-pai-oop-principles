@@ -24,7 +24,7 @@ export class Animal {
    * @returns {string} A default animal sound.
    */
   public makeSound(): string {
-    return "Some generic animal sound.";
+    return 'Some generic animal sound.';
   }
 }
 
@@ -37,7 +37,7 @@ export class Dog extends Animal {
    * @returns {string} A message indicating the dog's bark.
    */
   public makeSound(): string {
-    return "Woof! Woof!";
+    return 'Woof! Woof!';
   }
 }
 
@@ -50,7 +50,7 @@ export class Cat extends Animal {
    * @returns {string} A message indicating the cat's meow.
    */
   public makeSound(): string {
-    return "Meow!";
+    return 'Meow!';
   }
 }
 

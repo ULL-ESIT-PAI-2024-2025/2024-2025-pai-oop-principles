@@ -24,7 +24,7 @@ class Example {
    * @constructor
    */
   constructor(creationMessage: string) {
-    console.log("Don't mind me.");
+    console.log('Don\'t mind me.');
   }
 }
 

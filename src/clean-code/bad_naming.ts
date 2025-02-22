@@ -14,32 +14,32 @@
  */
 
 
-let x = 10; // ❌ Too generic, violates "Avoid Disinformation"
+let x = 10; // ❌ Too generic, violates 'Avoid Disinformation'
 
-let accountList: string[] = ["Alice", "Bob"]; // ❌ Redundant type, violates "Avoid Disinformation"
+let accountList: string[] = ['Alice', 'Bob']; // ❌ Redundant type, violates 'Avoid Disinformation'
 
-let a1 = "data1", a2 = "data2"; // ❌ Meaningless, violates "Make Meaningful Distinctions"
+let a1 = 'data1', a2 = 'data2'; // ❌ Meaningless, violates 'Make Meaningful Distinctions'
 
-let m_description = "A product"; // ❌ Uses prefix encoding, violates "Avoid Encoding"
+let m_description = 'A product'; // ❌ Uses prefix encoding, violates 'Avoid Encoding'
 
-let info = "User information"; // ❌ Too vague, violates "Make Meaningful Distinctions"
+let info = 'User information'; // ❌ Too vague, violates 'Make Meaningful Distinctions'
 
 function doStuff() { 
-  console.log("Doing something"); 
-} // ❌ Not intention-revealing, violates "Use Intention-Revealing Names"
+  console.log('Doing something'); 
+} // ❌ Not intention-revealing, violates 'Use Intention-Revealing Names'
 
 function eatMyShorts() { 
-  console.log("Aborting operation"); 
-} // ❌ Cute/jokey name, violates "Don’t Be Cute"
+  console.log('Aborting operation'); 
+} // ❌ Cute/jokey name, violates 'Don’t Be Cute'
 
 class UserClass { 
   name: string; 
-} // ❌ Redundant suffix, violates "Use Nouns for Class Names"
+} // ❌ Redundant suffix, violates 'Use Nouns for Class Names'
 
 function processData(data: any) { 
-  console.log("Processing data"); 
-} // ❌ Too generic, violates "Use Intention-Revealing Names"
+  console.log('Processing data'); 
+} // ❌ Too generic, violates 'Use Intention-Revealing Names'
 
 function retrInfo() { 
-  return "Info"; 
-} // ❌ Uses abbreviation, violates "Avoid Mental Mapping"
+  return 'Info'; 
+} // ❌ Uses abbreviation, violates 'Avoid Mental Mapping'

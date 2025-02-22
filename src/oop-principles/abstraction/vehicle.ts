@@ -31,7 +31,7 @@ export abstract class Vehicle {
    */
   public drive(): void {
     this.start();
-    console.log("Vehicle is moving.");
+    console.log('Vehicle is moving.');
   }
 }
 
@@ -43,10 +43,10 @@ export class Car extends Vehicle {
    * Starts the car engine.
    */
   public start(): void {
-    console.log("Car engine started.");
+    console.log('Car engine started.');
   }
 }
 
 // Example usage:
 const myCar = new Car();
-myCar.drive(); // "Car engine started." → "Vehicle is moving."
+myCar.drive(); // 'Car engine started.' → 'Vehicle is moving.'

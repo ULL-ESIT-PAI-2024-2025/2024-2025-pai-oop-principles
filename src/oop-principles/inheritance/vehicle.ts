@@ -24,7 +24,7 @@ export class Vehicle {
    * @returns {string} A message describing movement.
    */
   public move(): string {
-    return "The vehicle is moving.";
+    return 'The vehicle is moving.';
   }
 }
 
@@ -37,13 +37,13 @@ export class Car extends Vehicle {
    * @returns {string} A message describing car movement.
    */
   public move(): string {
-    return "The car is driving on the road.";
+    return 'The car is driving on the road.';
   }
 }
 
 // Example usage:
 const vehicle = new Vehicle();
-console.log(vehicle.move()); // "The vehicle is moving."
+console.log(vehicle.move()); // 'The vehicle is moving.'
 
 const car = new Car();
-console.log(car.move()); // "The car is driving on the road."
+console.log(car.move()); // 'The car is driving on the road.'
