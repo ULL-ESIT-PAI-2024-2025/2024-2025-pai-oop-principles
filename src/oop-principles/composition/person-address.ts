@@ -4,7 +4,7 @@
  * Grado en Ingeniería Informática
  * Programación de Aplicaciones Interactivas
  *
- * Demonstrates composition with a "has-a" relationship:
+ * Demonstrates composition with a 'has-a' relationship:
  * A `Person` has an `Address`.
  * 
  * - `Person` uses an `Address` object through composition.

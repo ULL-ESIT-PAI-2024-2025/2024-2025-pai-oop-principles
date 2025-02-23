@@ -54,7 +54,7 @@ export class Bicycle implements Vehicle {
 
 // Example usage:
 const car = new Car();
-console.log(car.move()); // "Engine started!"
+console.log(car.move()); // 'Engine started!'
 
 const bike = new Bicycle();
-console.log(bike.move()); // "Pedaling!"
+console.log(bike.move()); // 'Pedaling!'

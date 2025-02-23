@@ -94,8 +94,8 @@ const paypalPayment = new PayPalPayment();
 
 // Create a processor with Credit Card and process a payment
 const processor1 = new PaymentProcessor(creditPayment);
-console.log(processor1.processPayment(100)); // "Paid $100 with Credit Card."
+console.log(processor1.processPayment(100)); // 'Paid $100 with Credit Card.'
 
 // Switch to PayPal at runtime and process another payment
 processor1.setPaymentMethod(paypalPayment);
-console.log(processor1.processPayment(200)); // "Paid $200 with PayPal."
+console.log(processor1.processPayment(200)); // 'Paid $200 with PayPal.'

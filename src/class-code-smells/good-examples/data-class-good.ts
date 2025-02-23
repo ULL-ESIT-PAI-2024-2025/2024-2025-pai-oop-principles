@@ -60,7 +60,7 @@ export class Username {
 
 // Example usage:
 const user = new Username('Alice');
-console.log(user.getName()); // "ALICE"
+console.log(user.getName()); // 'ALICE'
 user.setUsername('Bob123'); // Sets new username
-console.log(user.hasNumbers()); // true (contains "123")
-console.log(user.getName()); // "BOB123"
+console.log(user.hasNumbers()); // true (contains '123')
+console.log(user.getName()); // 'BOB123'

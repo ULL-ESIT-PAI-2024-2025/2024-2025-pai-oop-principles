@@ -45,4 +45,4 @@ export class Bicycle extends Vehicle {
 // Example usage:
 const bike = new Bicycle();
 console.log(bike.startEngine()); // Bicycles don’t have engines!
-console.log(bike.pedal()); // "Pedaling!"
+console.log(bike.pedal()); // 'Pedaling!'
