@@ -27,7 +27,7 @@ class Movie {
    * Gets the name of the movie.
    * @returns {string} The name of the movie or 'untitled' if the name is empty.
    */  
-  get directorName(): string {
+  public getDirectorName(): string {
     return this.director.name;
   }
 
@@ -35,7 +35,7 @@ class Movie {
    * Sets the name of the movie.
    * @param {string} newMovieName - The new name of the movie.
    */  
-  set directorName(newDirectorName: string) {
+  public setDirectorName(newDirectorName: string) {
     this.director.name = newDirectorName;
   }
 }
@@ -51,7 +51,7 @@ class Person {
    * Gets the age of the person.
    * @returns {number} The age of the person.
    */  
-  get age() {
+  public getAge() {
     return this.age++;
   }
 }
@@ -68,7 +68,7 @@ class Movie {
    * Gets the name of the movie.
    * @returns {string} The name of the movie or 'untitled' if the name is empty.
    */  
-  get name(): string {
+  public getName(): string {
     return this.name || 'untitled';
   }
 
@@ -76,7 +76,7 @@ class Movie {
    * Sets the name of the movie.
    * @param {string} newMovieName - The new name of the movie.
    */  
-  set name(newMovieName: string) {
+  public setName(newMovieName: string) {
     this.name = newMovieName.trim();
   }
 }
@@ -92,7 +92,7 @@ class Cinema {
    * Gets the release year of the cinema.
    * @returns {number} The release year of the cinema.
    */
-  get releaseYear(): number {
+  public getReleaseYear(): number {
     return this.releaseYear;
   }
 
@@ -100,7 +100,7 @@ class Cinema {
    * Sets the release year of the cinema.
    * @param {number} newYear - The new release year to be set.
    */  
-  set releaseYear(newYear: number) {
+  public setReleaseYear(newYear: number) {
     this.releaseYear = newYear;
   }
 }
